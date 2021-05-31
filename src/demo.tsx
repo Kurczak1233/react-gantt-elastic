@@ -260,12 +260,13 @@ const options = {
 };
 
 ReactDOM.render(
-  <GanttElastic
-    tasks={tasks}
-    options={options}
-    style={{
-      height: "100%"
-    }}
-  ></GanttElastic>,
+  
+    <GanttElastic
+      tasks={tasks}
+      options={options}
+      style={{
+        height: "100%"
+      }}
+    ></GanttElastic>,
   document.getElementById("root")
 );
